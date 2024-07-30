@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/old_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Логин"
+        android:maxLength="50" />
+
+    <EditText
+        android:id="@+id/old_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Старый пароль"
+        android:maxLength="50" />
+
+    <EditText
+        android:id="@+id/new_first_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Новый пароль"
+        android:maxLength="50" />
+
+    <EditText
+        android:id="@+id/new_second_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Повторите пароль"
+        android:maxLength="300" />
+
+    <Button
+        android:id="@+id/change_profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Применить"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/cansel_change_profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_resume"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/name_resume_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя"
+        android:maxLength="50" />
+
+    <EditText
+        android:id="@+id/surname_resume_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Фамилия"
+        android:maxLength="50"
+        android:layout_below="@id/name_resume_input" />
+
+    <EditText
+        android:id="@+id/resumeName_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название резюме\n(Будет отображаться у работодателя)"
+        android:maxLength="50"
+        android:layout_below="@id/surname_resume_input" />
+
+    <EditText
+        android:id="@+id/contacts_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Контакты"
+        android:maxLength="50"
+        android:layout_below="@id/resumeName_input" />
+
+    <EditText
+        android:id="@+id/skills_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Навыки"
+        android:maxLength="500"
+        android:layout_below="@id/contacts_input" />
+
+    <EditText
+        android:id="@+id/about_yourself_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="О себе"
+        android:maxLength="2000"
+        android:layout_below="@id/skills_input" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить"
+        android:layout_centerHorizontal="true"
+        android:maxLength="300"
+        android:layout_below="@id/about_yourself_input" />
+</RelativeLayout>
+</ScrollView>

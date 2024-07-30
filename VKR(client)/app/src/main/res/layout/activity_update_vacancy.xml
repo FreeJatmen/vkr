@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_update_vacancy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/name_vacancy_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Вакансия"
+        android:maxLength="100" />
+
+    <EditText
+        android:id="@+id/payment_vacancy_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Зарплата"
+        android:maxLength="50" />
+
+    <EditText
+        android:id="@+id/expertise_vacancy_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Опыт работы"
+        android:maxLength="50" />
+
+    <EditText
+        android:id="@+id/employment_vacancy_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Место работы"
+        android:maxLength="50" />
+
+    <EditText
+        android:id="@+id/description_vacancy_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание работы"
+        android:maxLength="2000" />
+
+    <Button
+        android:id="@+id/update_vacancy_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Применить"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/cansel_update_vacancy_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+</ScrollView>
